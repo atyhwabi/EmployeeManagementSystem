@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2Du0K4+rJlZarKIddGOfC1gkp/hOCWpe7WIKFEYa8As6JnAPGGlWs5d8ZhOcVatA7uk4JT7VtwHOkUAyNoJUIA==",
+  "dgSpecHash": "67r8KOAfliakuZSCFnBig/NZWBpqX+iGmPyfSLYo9l/LOVjAYkN71zXiiVkbnxF7VoI57a6fIZhc69CZr0v/rA==",
   "success": true,
   "projectFilePath": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\ClientLibrary\\ClientLibrary.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\8.0.0\\microsoft.aspnetcore.components.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.0\\microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.0\\microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.0\\microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512",
