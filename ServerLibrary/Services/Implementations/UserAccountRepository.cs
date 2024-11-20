@@ -120,7 +120,6 @@ namespace ServerLibrary.Services.Implementations
                 new Claim(ClaimTypes.Name, user.Fullname!)
             };
 
-             
             var token = new JwtSecurityToken(
                   issuer: config.Value.Issuer,
                   audience: config.Value.Audience,
@@ -161,13 +160,10 @@ namespace ServerLibrary.Services.Implementations
         {
             if(token == null) return new LoginResponse(false, "Token cannot be null");
 
-
             var findToken = await appContext.RefreshTokenInfos.FirstOrDefaultAsync(x => x.Token == token.Token);
             if (findToken == null) return new LoginResponse(false, "Token does not exist");
 
-
             var user = await appContext.ApplicationUsers.FirstOrDefaultAsync(x => x.Id == findToken!.UserId);
-
             if (user == null) return new LoginResponse(false, "User does not exist");
 
             var getUserRoles = await FindUserRole(user.Id);

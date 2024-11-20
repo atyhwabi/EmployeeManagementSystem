@@ -22,7 +22,6 @@ namespace ClientLibrary.Helpers
             var claimsPrincipal = SetClaimPrincipal(getUserClaims);
             return await Task.FromResult(new AuthenticationState(claimsPrincipal));
         }
-
         public static ClaimsPrincipal SetClaimPrincipal(CustomerUserClaims userClaims)
         {
             if (userClaims == null) return new ClaimsPrincipal(new ClaimsIdentity());
@@ -76,6 +75,5 @@ namespace ClientLibrary.Helpers
                 Role = role!.Value
             };
         }
-    
     }
 }

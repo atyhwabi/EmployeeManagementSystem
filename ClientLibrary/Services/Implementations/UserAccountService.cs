@@ -17,7 +17,6 @@ namespace ClientLibrary.Services.Implementations
 
             return await response.Content.ReadFromJsonAsync<GeneralResponse>()!;
         }
-
         public async Task<LoginResponse> LoginAsync(Login user)
         {
             var httpClient = await getHttpClient.GetPrivateHttpClient();
@@ -26,7 +25,6 @@ namespace ClientLibrary.Services.Implementations
 
             return await response.Content.ReadFromJsonAsync<LoginResponse>()!;
         }
-
         public Task<LoginResponse> RefreshTokenAsync(RefreshToken token)
         {
             throw new NotImplementedException();
