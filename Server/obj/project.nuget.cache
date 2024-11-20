@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nvtAMnliQLbQTjYFU/hKbMPqIo1qG/lP1hKaKkF5WZlRKQFZuMqjWixMGgP1pt3w3ZU3mX1FasgrEMdNd3Dk/Q==",
+  "dgSpecHash": "s30SWeRkSiWWZQMMJVswzvv4GqRix6CbEPTlkfiIDDj7DsPoBuZESFj7wRpIsGLZ4RMLany//gJUoxw8gl0tLA==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\AphiweTywabi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

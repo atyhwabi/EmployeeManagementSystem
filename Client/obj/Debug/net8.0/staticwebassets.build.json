@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GKYlO4YA2rre+cJCOggjlHZqETpEqWG7UMJXROB/xEg=",
+  "Hash": "R/5E/t17wAgGmQQKxU60gIY2kt6L/1F47PitCT9gRP0=",
   "Source": "Client",
   "BasePath": "_content/Client",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Client\\wwwroot",
       "Source": "Client",
-      "ContentRoot": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\",
       "BasePath": "_content/Client",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css",
+      "Identity": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css",
       "SourceId": "Client",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Client",
       "RelativePath": "Client.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css"
+      "OriginalItemSpec": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css"
     },
     {
-      "Identity": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css",
+      "Identity": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css",
       "SourceId": "Client",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Client",
       "RelativePath": "Client.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\app.css",
       "SourceId": "Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\",
       "BasePath": "_content/Client",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\",
       "BasePath": "_content/Client",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\",
       "BasePath": "_content/Client",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\favicon.png",
       "SourceId": "Client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\Client\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client\\wwwroot\\",
       "BasePath": "_content/Client",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

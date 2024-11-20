@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BaseLibrary.DTOs
 {
-    internal class UserSession
+    public class UserSession
     {
+        public string? Token { get; set; }
+        public string? RefreshToken { get; set; }
     }
 }
