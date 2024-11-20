@@ -1,0 +1,12 @@
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\bin\Debug\net8.0\ClientLibrary.deps.json
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\bin\Debug\net8.0\ClientLibrary.dll
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\bin\Debug\net8.0\ClientLibrary.pdb
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ClientLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ClientLibrary.AssemblyInfoInputs.cache
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ClientLibrary.AssemblyInfo.cs
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ClientLibrary.csproj.CoreCompileInputs.cache
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ClientLibrary.sourcelink.json
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ClientLibrary.dll
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\refint\ClientLibrary.dll
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ClientLibrary.pdb
+C:\Dev\Projects\VideoApp\ManagementSystem\ClientLibrary\obj\Debug\net8.0\ref\ClientLibrary.dll

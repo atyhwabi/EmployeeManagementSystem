@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+eQG6RjaHiCcBHnFS3/u5Ok8kAIAVJkBIiJJOsnr837VBUMAFeRJsVfuKbuRLYuzwiG7YK694ImN9POBzybDcA==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Projects\\VideoApp\\ManagementSystem\\BaseLibrary\\BaseLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AphiweTywabi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\AphiweTywabi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\AphiweTywabi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
