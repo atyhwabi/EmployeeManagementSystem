@@ -33,8 +33,8 @@ namespace ServerLibrary.Services.Implementations
 
             });
 
-            var checkAdminRoile = await appContext.SystemRoles.FirstOrDefaultAsync(_ => _.RoleName!.Equals(Constants.Admin));
-            if (checkAdminRoile == null)
+            var checkAdminRole = await appContext.SystemRoles.FirstOrDefaultAsync(_ => _.RoleName!.Equals(Constants.Admin));
+            if (checkAdminRole == null)
             {
                 var ceateAdmiRole = await AddToDatabase(new SystemRole()
                 {
@@ -49,9 +49,9 @@ namespace ServerLibrary.Services.Implementations
                 return new GeneralResponse(true, "User created successfully");
             }
 
-            var checkUserRoile = await appContext.SystemRoles.FirstOrDefaultAsync(_ => _.RoleName!.Equals(Constants.User));
+            var checkUserRole = await appContext.SystemRoles.FirstOrDefaultAsync(_ => _.RoleName!.Equals(Constants.User));
             SystemRole reponse = new();
-            if (checkAdminRoile is null)
+            if (checkAdminRole is null)
             {
                 reponse = await AddToDatabase(new SystemRole()
                 {
