@@ -81,7 +81,7 @@ namespace ServerLibrary.Services.Implementations
             }
 
             var getUserRoles = await FindUserRole(applicationUser.Result!.Id);
-            if (getUserRoles is null ) return new LoginResponse(false, "User has no role");
+            if (getUserRoles is null) return new LoginResponse(false, "User has no role");
 
             var getUserRoleName = await FindRole(getUserRoles.RoleId);
             if (getUserRoleName is null) return new LoginResponse(false, "User has no role");

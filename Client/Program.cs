@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container.  
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["API_URL"]) });
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7120") });
 builder.Services.AddAuthorizationCore();
-builder.Services.AddBlazoredLocalStorage();
+builder.Services.AddBlazoredLocalStorage();  // Ensure this is correctly registered  
 builder.Services.AddScoped<GetHttpClient>();
 builder.Services.AddScoped<LocalStorageService>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationProvider>();
@@ -20,19 +20,21 @@ builder.Services.AddScoped<IUserAccountService, UserAccountService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline.  
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
-app.UseAntiforgery();
 
+// Ensure you use this middleware for authorization if needed  
+app.UseAuthentication();
+app.UseAuthorization();
+
+// Set up routing to your main app component  
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 

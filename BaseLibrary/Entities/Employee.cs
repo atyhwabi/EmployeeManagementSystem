@@ -1,11 +1,12 @@
 ﻿
+using BaseLibrary.DTOs;
 using System.Text.Json.Serialization;
 
 namespace BaseLibrary.Entities
 {
-	public class Employee
+	public class Employee : AuditDTO
 	{
-		public int Id { get; set; }
+
 		public string Name { get; set; }
 		public string DisplayName { get; set; }
 		public string Email { get; set; }
