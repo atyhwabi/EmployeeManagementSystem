@@ -16,7 +16,7 @@ namespace ClientLibrary.Helpers
             var deserializedToken = Serializations.Deserialize<UserSession>(stringToken);
             if (deserializedToken == null) return await Task.FromResult(new AuthenticationState(anonymous));
 
-            var getUserClaims = DecrytToken(deserializedToken.Token);
+            CustomerUserClaims? getUserClaims = DecrytToken(deserializedToken.Token!);
             if (getUserClaims == null) return await Task.FromResult(new AuthenticationState(anonymous));
 
             var claimsPrincipal = SetClaimPrincipal(getUserClaims);

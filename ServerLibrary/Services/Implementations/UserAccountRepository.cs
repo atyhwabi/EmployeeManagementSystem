@@ -183,5 +183,10 @@ namespace ServerLibrary.Services.Implementations
 
             return new LoginResponse(true, "Login successful", jwtToken, refreshToken);
         }   
+
+        public Task<WeatherForecast> GetWeatherForecast()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

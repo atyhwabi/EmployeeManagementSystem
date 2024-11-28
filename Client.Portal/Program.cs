@@ -1,10 +1,23 @@
+using Blazored.LocalStorage;
 using Client.Portal.Components;
+using ClientLibrary.Helpers;
+using ClientLibrary.Services.Implementations;
+using ClientLibrary.Services.Interfaces;
+using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+//builder.Services.AddAuthorizationCore();
+//builder.Services.AddBlazoredLocalStorage();
+//builder.Services.AddScoped<GetHttpClient>();
+//builder.Services.AddScoped<AuthenticationStateProvider,CustomAuthenticationProvider>();
+//builder.Services.AddScoped<LocalStorageService>();
+//builder.Services.AddScoped<IUserAccountService, UserAccountService>();
+//await builder.Build().RunAsync();
+
 
 var app = builder.Build();
 
