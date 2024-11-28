@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.  
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7120") });
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7121") });
 builder.Services.AddAuthorizationCore();
 builder.Services.AddBlazoredLocalStorage();  // Ensure this is correctly registered  
 builder.Services.AddScoped<GetHttpClient>();

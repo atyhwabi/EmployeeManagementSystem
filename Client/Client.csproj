@@ -15,6 +15,11 @@
 
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj" />
+    <ProjectReference Include="..\ClientLibrary\ClientLibrary.csproj" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<Content Update="Layout\MainLayout.razor">
 			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
@@ -29,9 +34,5 @@
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj" />
-    <ProjectReference Include="..\ClientLibrary\ClientLibrary.csproj" />
-  </ItemGroup>
 
 </Project>
