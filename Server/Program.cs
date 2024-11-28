@@ -24,6 +24,17 @@ builder.Services.AddDbContext<AppDBContext>(options =>
 
 builder.Services.Configure<JwtSection>(builder.Configuration.GetSection("JwtSection"));
 builder.Services.AddScoped<IUserAccount, UserAccountRepository>();
+builder.Services.AddCors(
+    options =>
+    {
+        options.AddPolicy("AllowAll",
+                       builder =>
+                       {
+                builder.WithOrigins("https://localhost:7148","http://localhost:5093")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            });
+    });
 
 var app = builder.Build();
 
@@ -35,6 +46,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
