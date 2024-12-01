@@ -6,15 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-
 	<ItemGroup>
 		<PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
-
 	</ItemGroup>
-
 	<ItemGroup>
 		<ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj" />
 		<ProjectReference Include="..\ClientLibrary\ClientLibrary.csproj" />
@@ -34,6 +31,4 @@
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
-
-
 </Project>
