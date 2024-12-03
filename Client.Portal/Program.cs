@@ -18,7 +18,7 @@ builder.Services.AddRazorComponents()
 //builder.Services.AddScoped<IUserAccountService, UserAccountService>();
 //await builder.Build().RunAsync();
 
-
+builder.Services.AddAuthenticationCore();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
