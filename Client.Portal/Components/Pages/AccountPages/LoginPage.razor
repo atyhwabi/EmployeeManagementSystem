@@ -4,15 +4,14 @@
 @using ClientLibrary.Services.Interfaces
 @using ClientLibrary.Services.Implementations
 @using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Authorization
 
 @inject IUserAccountService UserAccountService
 @inject NavigationManager NavManager
-@using Microsoft.AspNetCore.Components.Authorization
 @inherits LayoutComponentBase
 @inject AuthenticationStateProvider AuthStateProvider
 @inject IUserAccountService accountService
 @inject NavigationManager NavManager
-
 
 <div class="container">
     <div class="row">
