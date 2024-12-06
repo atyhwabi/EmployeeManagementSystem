@@ -3,6 +3,7 @@
 @using ClientLibrary.Helpers
 @using ClientLibrary.Services.Interfaces
 @using ClientLibrary.Services.Implementations
+@using Microsoft.AspNetCore.Components.Forms
 
 @inject IUserAccountService UserAccountService
 @inject NavigationManager NavManager
@@ -12,10 +13,11 @@
 @inject IUserAccountService accountService
 @inject NavigationManager NavManager
 
+
 <div class="container">
     <div class="row">
         <div class="col-lg-6">
-            <EditForm Enhance Model="User" OnInvalidSubmit="HandleLogin">
+            <EditForm Enhance Model="User" OnInvalidSubmit="HandleLogin" FormName="formLogoin">
                 <DataAnnotationsValidator />
                 <ValidationSummary />
                 <div class="card">
@@ -37,9 +39,7 @@
                     </div>
                 </div>
             </EditForm>
-
         </div>
     </div>
-
 </div>
 

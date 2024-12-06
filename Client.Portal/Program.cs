@@ -4,12 +4,18 @@ using ClientLibrary.Helpers;
 using ClientLibrary.Services.Implementations;
 using ClientLibrary.Services.Interfaces;
 using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.AspNetCore.Hosting.Builder;
+using System.Threading.Tasks.Dataflow;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents(); // Optional, depending on your app's needs.
+
+builder.Services.AddHttpClient("SystemApiClient", client => client.BaseAddress = new Uri("https://localhost:5001/"));
+    
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();

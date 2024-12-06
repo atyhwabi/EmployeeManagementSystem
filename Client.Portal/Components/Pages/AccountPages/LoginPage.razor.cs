@@ -19,5 +19,10 @@ namespace Client.Portal.Components.Pages.AccountPages
                 NavManager.NavigateTo("/", forceLoad: true);
             }
         }
+        protected override void OnInitialized()
+        {
+          
+            base.OnInitialized();
+        }
     }
 }
