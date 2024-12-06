@@ -1,5 +1,35 @@
-﻿<CascadingAuthenticationState>  
+﻿@using Microsoft.AspNetCore.Components
+@using Client.Portal.Components.Layout
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Authorization
+@using ClientLibrary.Helpers
+
+@inject LocalStorageService LocalStorage;
+
+<CascadingAuthenticationState>  
     <Router AppAssembly="@typeof(Program).Assembly">  
-        <!-- Your routes here -->  
+        <Found Context="routeData">  
+            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />  
+            <FocusOnNavigate RouteData="@routeData" Selector="h1" />  
+        </Found>  
+        <NotFound>  
+            <LayoutView Layout="@typeof(MainLayout)">  
+                <p>Sorry, there's nothing at this address.</p>  
+            </LayoutView>  
+        </NotFound>  
     </Router>  
 </CascadingAuthenticationState>
+
+@code {
+    private string? _token;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var token = await LocalStorage.GetToken();
+        if (token != null)
+        {
+            _token = token;
+        }
+    }
+}
+```

@@ -9,16 +9,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
-//builder.Services.AddAuthorizationCore();
-//builder.Services.AddBlazoredLocalStorage();
-//builder.Services.AddScoped<GetHttpClient>();
-//builder.Services.AddScoped<AuthenticationStateProvider,CustomAuthenticationProvider>();
-//builder.Services.AddScoped<LocalStorageService>();
-//builder.Services.AddScoped<IUserAccountService, UserAccountService>();
-//await builder.Build().RunAsync();
+    .AddInteractiveServerComponents(); // Optional, depending on your app's needs.
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+builder.Services.AddHttpClient();
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+builder.Services.AddBlazoredLocalStorage();
+builder.Services.AddScoped<LocalStorageService>();
+builder.Services.AddScoped<CustomAuthenticationProvider>();
+builder.Services.AddScoped<IUserAccountService, UserAccountService>();
+builder.Services.AddScoped<GetHttpClient>();
 
-builder.Services.AddAuthenticationCore();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,10 +32,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
+
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

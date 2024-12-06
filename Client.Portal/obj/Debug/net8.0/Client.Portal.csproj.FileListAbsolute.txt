@@ -39,6 +39,8 @@ C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\ob
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.AssemblyInfo.cs
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.csproj.CoreCompileInputs.cache
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.RazorAssemblyInfo.cache
+C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.RazorAssemblyInfo.cs
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.sourcelink.json
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\staticwebassets.development.json
