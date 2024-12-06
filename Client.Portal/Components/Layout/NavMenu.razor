@@ -5,14 +5,14 @@
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Client.Portal
-            Hi, Guest@* <AuthorizeView>
+            Hi, <AuthorizeView>
                    <Authorized>
                     <span class="user-name">@context.User.Identity!.Name</span>
                    </Authorized>
                    <NotAuthorized>
                     <span class="user-name">Guest</span>
                     </NotAuthorized>
-            </AuthorizeView> *@
+            </AuthorizeView> 
         </a>
         <button title="Navigation menu" class="navbar-toggler" ></button>
     </div>

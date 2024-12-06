@@ -51,6 +51,7 @@ C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\ob
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\scopedcss\Components\Pages\AccountPages\LoginPage.razor.rz.scp.css
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\scopedcss\bundle\Client.Portal.styles.css
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\scopedcss\projectbundle\Client.Portal.bundle.scp.css
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.P.C2853FD2.Up2Date
@@ -59,4 +60,3 @@ C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\ob
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.pdb
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\Client.Portal.genruntimeconfig.cache
 C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\ref\Client.Portal.dll
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\Client.Portal\obj\Debug\net8.0\scopedcss\Components\Pages\AccountPages\LoginPage.razor.rz.scp.css

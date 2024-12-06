@@ -2,6 +2,9 @@
 @using ClientLibrary.Helpers
 @using Microsoft.AspNetCore.Components.Authorization
 @using ClientLibrary.Services.Interfaces
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.JSInterop
+
 @inherits LayoutComponentBase
 @inject AuthenticationStateProvider AuthStateProvider
 @inject IUserAccountService accountService
@@ -14,9 +17,18 @@
 
     <main>
         <div class="top-row px-4">
-            <a class="btn-none" href="identity/account/login">Sign In</a>
-            <a class="btn-none" href="identity/account/login">Register</a>
-            <a class="btn-none text-danger" @onclick="LogoutClicked">Logout</a>
+            <AuthorizeView>
+                <Authorized>
+                    <a class="btn-none text-danger" @onclick="LogoutClicked">Logout</a>
+                </Authorized>
+                <NotAuthorized>
+                    <a class="btn-none" href="identity/account/login">Sign In</a>
+                    <a class="btn-none" href="identity/account/login">Register</a>
+                </NotAuthorized>
+            </AuthorizeView>
+
+            
+            
         </div>
 
         <article class="content px-4">
