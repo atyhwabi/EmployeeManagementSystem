@@ -3,7 +3,6 @@ using System.Text.Json.Serialization;
 using BaseLibrary.DTOs;
 using BaseLibrary.Entities;
 
-
 namespace BaseLibrary.Entities
 {
     public class BaseEntity : AuditDTO

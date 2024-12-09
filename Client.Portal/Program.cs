@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Hosting.Builder;
 using System.Threading.Tasks.Dataflow;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents(); // Optional, depending on your app's needs.
