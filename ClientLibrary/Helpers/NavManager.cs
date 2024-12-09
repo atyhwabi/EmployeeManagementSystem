@@ -13,7 +13,6 @@ namespace ClientLibrary.Helpers
         {
             this.navigationManager = navigationManager;
         }
-
         protected NavigationManager navigationManager { get; }
 
         public void NavigateTo(string uri, bool forceReload = false, bool ispublic = false)
@@ -27,17 +26,14 @@ namespace ClientLibrary.Helpers
             else
                 navigationManager.NavigateTo($"/public/{uri}", forceReload);
         }
-
         public string GetUri()
         {
             return navigationManager.Uri;
         }
-
         public bool UriEndsWith(string value)
         {
             return navigationManager.Uri.ToLower().EndsWith(value.ToLower());
         }
-
         public bool UriContains(string value)
         {
             return navigationManager.Uri.ToLower().Contains(value.ToLower());

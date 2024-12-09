@@ -5,8 +5,6 @@ using ClientLibrary.Services.Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
-
-
 namespace Client.Portal.Components.Pages.AccountPages
 {
     public partial class LoginPage
@@ -15,13 +13,21 @@ namespace Client.Portal.Components.Pages.AccountPages
         private bool isPrerendering;
         private async Task HandleLogin()
         {
-            var response = await UserAccountService.LoginAsync(User);
-            if (response.Flag)
+            try
             {
-                var customerUserClaims = (CustomAuthenticationProvider)AuthStateProvider;
-                await customerUserClaims.UpdateAuthenticationState(new UserSession() { Token = response.Token, RefreshToken = response.RefreshToken });
-                NavManager.NavigateTo("/", forceLoad: true);
+                var response = await UserAccountService.LoginAsync(User);
+                if (response.Flag)
+                {
+                    var customerUserClaims = (CustomAuthenticationProvider)AuthStateProvider;
+                    await customerUserClaims.UpdateAuthenticationState(new UserSession() { Token = response.Token, RefreshToken = response.RefreshToken });
+                    NavManager.NavigateTo("/", forceLoad: true);
+                }
             }
+            catch( Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+           
         }
         protected override Task OnInitializedAsync()
         {

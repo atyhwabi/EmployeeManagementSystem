@@ -1,9 +1,11 @@
 ﻿using BaseLibrary.DTOs;
+using BaseLibrary.Entities;
 using BaseLibrary.Responses;
 using ClientLibrary.Helpers;
 using ClientLibrary.Services.Interfaces;
+using System.Diagnostics;
 using System.Net.Http.Json;
-
+using System.Reflection.Metadata;
 
 namespace ClientLibrary.Services.Implementations
 {
@@ -19,6 +21,9 @@ namespace ClientLibrary.Services.Implementations
         }
         public async Task<LoginResponse> LoginAsync(Login user)
         {
+            user.Email = "user4@example.com ";
+            user.Password = "string";
+
             var httpClient = await getHttpClient.GetPrivateHttpClient();
             var response = await httpClient.PostAsJsonAsync($"{authPath}/login", user);
             if(!response.IsSuccessStatusCode) return new LoginResponse(false, "Invalid login credentials");
@@ -29,14 +34,12 @@ namespace ClientLibrary.Services.Implementations
         {
             throw new NotImplementedException();
         }
-
         public async Task<WeatherForecast[]> GetWeatherForecast()
         {
            var httpClient = await getHttpClient.GetPrivateHttpClient();
            var response = await httpClient.GetFromJsonAsync<WeatherForecast[]>("api/weatherforecast");
 
            return  response!;
-
         }
     }
 }
