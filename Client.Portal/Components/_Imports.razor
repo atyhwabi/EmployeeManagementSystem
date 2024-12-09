@@ -8,3 +8,19 @@
 @using Microsoft.JSInterop
 @using Client.Portal
 @using Client.Portal.Components
+@using BaseLibrary.DTOs
+@using ClientLibrary.Helpers
+@using ClientLibrary.Services.Interfaces
+@using ClientLibrary.Services.Implementations
+@using Microsoft.AspNetCore.Components.Authorization
+
+@inject IUserAccountService UserAccountService
+@inject NavigationManager NavManager
+@inherits LayoutComponentBase
+@inject AuthenticationStateProvider AuthStateProvider
+@inject IUserAccountService accountService
+@inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+@inject AuthenticationStateProvider AuthStateProvider
+@inject IUserAccountService accountService
+@inject NavigationManager NavManager
