@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents(); // Optional, depending on your app's needs.
 
-builder.Services.AddHttpClient("SystemApiClient", client => client.BaseAddress = new Uri("https://localhost:5001/"));
+builder.Services.AddHttpClient("SystemApiClient", client => client.BaseAddress = new Uri("https://localhost:7148/"));
     
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();

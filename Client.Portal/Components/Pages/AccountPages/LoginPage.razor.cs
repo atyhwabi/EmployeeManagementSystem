@@ -2,6 +2,9 @@
 using ClientLibrary.Helpers;
 using Microsoft.AspNetCore.Components.Authorization;
 using ClientLibrary.Services.Interfaces;
+using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
+
 
 
 namespace Client.Portal.Components.Pages.AccountPages
@@ -9,6 +12,7 @@ namespace Client.Portal.Components.Pages.AccountPages
     public partial class LoginPage
     {
         private Login User = new Login();
+        private bool isPrerendering;
         private async Task HandleLogin()
         {
             var response = await UserAccountService.LoginAsync(User);
@@ -19,10 +23,18 @@ namespace Client.Portal.Components.Pages.AccountPages
                 NavManager.NavigateTo("/", forceLoad: true);
             }
         }
-        protected override void OnInitialized()
+        protected override Task OnInitializedAsync()
         {
-          
-            base.OnInitialized();
+            isPrerendering = NavManager.Uri.Contains("prerendering");
+            return base.OnInitializedAsync();
+        }
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            if (firstRender && !isPrerendering)
+            {
+                HandleLogin();
+                await JSRuntime.InvokeVoidAsync("console.log", "JS interop called after rendering!");
+            }
         }
     }
 }

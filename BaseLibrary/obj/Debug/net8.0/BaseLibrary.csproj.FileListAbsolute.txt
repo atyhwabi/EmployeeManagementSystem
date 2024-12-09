@@ -11,16 +11,3 @@ C:\Dev\Projects\VideoApp\ManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibra
 C:\Dev\Projects\VideoApp\ManagementSystem\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
 C:\Dev\Projects\VideoApp\ManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
 C:\Dev\Projects\VideoApp\ManagementSystem\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\bin\Debug\net8.0\BaseLibrary.deps.json
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\bin\Debug\net8.0\BaseLibrary.dll
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\bin\Debug\net8.0\BaseLibrary.pdb
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.AssemblyReference.cache
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.sourcelink.json
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
-C:\Users\AphiweTywabi\Documents\GitHub\EmployeeManagementSystem\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
