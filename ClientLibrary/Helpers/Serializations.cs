@@ -13,12 +13,10 @@ namespace ClientLibrary.Helpers
         {
             return JsonSerializer.Serialize(obj);
         }
-
         public static T Deserialize<T>(string json)
         {
             return JsonSerializer.Deserialize<T>(json);
         }
-
         public static IList<T> Deserialize<T>(byte[] json)
         {
             return json == null ? new List<T>() : JsonSerializer.Deserialize<IList<T>>(Encoding.UTF8.GetString(json));

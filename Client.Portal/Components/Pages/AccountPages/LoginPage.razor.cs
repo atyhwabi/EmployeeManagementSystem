@@ -27,7 +27,6 @@ namespace Client.Portal.Components.Pages.AccountPages
             {
                 throw new Exception(e.Message);
             }
-           
         }
         protected override Task OnInitializedAsync()
         {
@@ -38,7 +37,6 @@ namespace Client.Portal.Components.Pages.AccountPages
         {
             if (firstRender && !isPrerendering)
             {
-                HandleLogin();
                 await JSRuntime.InvokeVoidAsync("console.log", "JS interop called after rendering!");
             }
         }
