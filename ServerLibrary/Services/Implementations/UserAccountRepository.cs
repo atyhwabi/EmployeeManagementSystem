@@ -19,7 +19,7 @@ namespace ServerLibrary.Services.Implementations
 {
     public class UserAccountRepository(IOptions<JwtSection> config, AppDBContext appContext) : IUserAccount
     {
-        public async Task<GeneralResponse> CreateAsync(Register user)
+        public async Task<GeneralResponse> CreateAsync(Registration user)
         {
             if (user == null) return new GeneralResponse(false, "User cannot be null");
 

@@ -612,6 +612,29 @@
           }
         }
       },
+      "MudBlazor/6.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "7.0.1",
+          "Microsoft.AspNetCore.Components.Web": "7.0.1"
+        },
+        "compile": {
+          "lib/net7.0/MudBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/MudBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/MudBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MudBlazor.props": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/9.0.0": {
         "type": "package",
         "compile": {
@@ -1615,6 +1638,29 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "MudBlazor/6.1.7": {
+      "sha512": "2YdczBg5Yy1VGxfW8OD0srOHp/5jPzIfQzTtR/5UEsWkXzjoKZfvlIC44vNRQ5MvC8+YlaSJq2LfeG1h5gY6QA==",
+      "type": "package",
+      "path": "mudblazor/6.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Nuget.png",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/MudBlazor.props",
+        "buildMultiTargeting/MudBlazor.props",
+        "buildTransitive/MudBlazor.props",
+        "lib/net6.0/MudBlazor.dll",
+        "lib/net6.0/MudBlazor.xml",
+        "lib/net7.0/MudBlazor.dll",
+        "lib/net7.0/MudBlazor.xml",
+        "mudblazor.6.1.7.nupkg.sha512",
+        "mudblazor.nuspec",
+        "staticwebassets/MudBlazor.min.css",
+        "staticwebassets/MudBlazor.min.js"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/9.0.0": {
       "sha512": "ddppcFpnbohLWdYKr/ZeLZHmmI+DXFgZ3Snq+/E7SwcdW4UnvxmaugkwGywvGVWkHPGCSZjCP+MLzu23AL5SDw==",
       "type": "package",
@@ -1825,7 +1871,8 @@
       "ClientLibrary >= 1.0.0",
       "Microsoft.AspNetCore.Authorization >= 8.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.0",
-      "Microsoft.Extensions.Http >= 9.0.0"
+      "Microsoft.Extensions.Http >= 9.0.0",
+      "MudBlazor >= 6.1.7"
     ]
   },
   "packageFolders": {
@@ -1901,6 +1948,10 @@
           "Microsoft.Extensions.Http": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[6.1.7, )"
           }
         },
         "imports": [

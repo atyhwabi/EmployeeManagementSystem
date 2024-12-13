@@ -145,6 +145,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.1.7, )"
             }
           },
           "imports": [

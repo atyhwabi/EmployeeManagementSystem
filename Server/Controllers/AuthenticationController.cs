@@ -12,7 +12,7 @@ namespace Server.Controllers
     public class AuthenticationController(IUserAccount userAccount) : ControllerBase
     {
         [HttpPost("register")]
-        public async Task<IActionResult> Register(Register user)
+        public async Task<IActionResult> Register(Registration user)
         {
             if(user is null) return BadRequest(new GeneralResponse(false, "User cannot be null"));
 

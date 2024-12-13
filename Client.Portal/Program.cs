@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.AspNetCore.Hosting.Builder;
 using System.Threading.Tasks.Dataflow;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -25,6 +26,7 @@ builder.Services.AddScoped<LocalStorageService>();
 builder.Services.AddScoped<CustomAuthenticationProvider>();
 builder.Services.AddScoped<IUserAccountService, UserAccountService>();
 builder.Services.AddScoped<GetHttpClient>();
+builder.Services.AddMudServices();
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.

@@ -13,7 +13,8 @@
           "ClientLibrary": "1.0.0",
           "Microsoft.AspNetCore.Authorization": "8.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.0",
-          "Microsoft.Extensions.Http": "9.0.0"
+          "Microsoft.Extensions.Http": "9.0.0",
+          "MudBlazor": "6.1.7"
         },
         "runtime": {
           "Client.Portal.dll": {}
@@ -331,6 +332,18 @@
           }
         }
       },
+      "MudBlazor/6.1.7": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.0",
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/MudBlazor.dll": {
+            "assemblyVersion": "6.1.7.0",
+            "fileVersion": "6.1.7.0"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/9.0.0": {
         "runtime": {
           "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -623,6 +636,13 @@
       "sha512": "sha512-i7rDTUTwtEnZzukY6qCScCzuvDVANs5tRmeUl84HgY3UvLrVaYVDk8cdipfizc/GfxwUF1TvP8PCmvkHdflMBw==",
       "path": "microsoft.jsinterop.webassembly/8.0.0",
       "hashPath": "microsoft.jsinterop.webassembly.8.0.0.nupkg.sha512"
+    },
+    "MudBlazor/6.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2YdczBg5Yy1VGxfW8OD0srOHp/5jPzIfQzTtR/5UEsWkXzjoKZfvlIC44vNRQ5MvC8+YlaSJq2LfeG1h5gY6QA==",
+      "path": "mudblazor/6.1.7",
+      "hashPath": "mudblazor.6.1.7.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/9.0.0": {
       "type": "package",

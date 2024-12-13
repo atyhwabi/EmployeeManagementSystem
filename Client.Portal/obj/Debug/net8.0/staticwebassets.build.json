@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4zeH863Kh2IxT7Tcrxrbu59ovTh/MSA4CzKezKvCQ/Y=",
+  "Hash": "pJLwz3wY/Fc3Js5KgLGAARxv2uyfQ/RnY9Q1FkOIR58=",
   "Source": "Client.Portal",
   "BasePath": "_content/Client.Portal",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\AphiweTywabi\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\AphiweTywabi\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\AphiweTywabi\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\AphiweTywabi\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\AphiweTywabi\\.nuget\\packages\\mudblazor\\6.1.7\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\AphiweTywabi\\Documents\\GitHub\\EmployeeManagementSystem\\Client.Portal\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.Portal.styles.css",
       "SourceId": "Client.Portal",

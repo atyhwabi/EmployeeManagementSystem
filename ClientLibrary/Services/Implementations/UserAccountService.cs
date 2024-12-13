@@ -12,7 +12,7 @@ namespace ClientLibrary.Services.Implementations
     public class UserAccountService(GetHttpClient getHttpClient) : IUserAccountService
     {
         public const string authPath = "api/authentication";
-        public async Task<GeneralResponse> CreateAsync(Register user)
+        public async Task<GeneralResponse> CreateAsync(Registration user)
         {
             var httpClient = await getHttpClient.GetPrivateHttpClient();
             var response = await httpClient.PostAsJsonAsync($"{authPath}/register", user);

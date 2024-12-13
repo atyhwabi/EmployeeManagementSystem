@@ -8,15 +8,16 @@
 @using Microsoft.JSInterop
 @using Client.Portal
 @using Client.Portal.Components
+@using Client.Portal.Components.Layout
 @using BaseLibrary.DTOs
 @using ClientLibrary.Helpers
 @using ClientLibrary.Services.Interfaces
 @using ClientLibrary.Services.Implementations
 @using Microsoft.AspNetCore.Components.Authorization
+@using MudBlazor
 
 @inject IUserAccountService UserAccountService
 @inject NavigationManager NavManager
-@inherits LayoutComponentBase
 @inject AuthenticationStateProvider AuthStateProvider
 @inject IUserAccountService accountService
 @inject NavigationManager NavManager
