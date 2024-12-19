@@ -6,12 +6,18 @@
 @using Microsoft.JSInterop
 @inherits LayoutComponentBase
 
+
+<style>
+    .content{
+        background: radial-gradient(#fff,#ffd6d6);
+    }
+</style>
 <div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
     <main>
-        <div class="top-row px-4">
+       @*  <div class="top-row px-4">
             <AuthorizeView>
                 <Authorized>
                     <a class="btn-none text-danger" @onclick="LogoutClicked">Logout</a>
@@ -23,10 +29,12 @@
                     <a class="btn-none" href="identity/account/register">Register</a>
                 </NotAuthorized>
             </AuthorizeView>
-        </div>
+        </div> *@
+        <NavMenuTop/>
         <article class="content px-4">
             @Body
         </article>
+        <FooterLayout/>
     </main>
 </div>
 <div id="blazor-error-ui">
