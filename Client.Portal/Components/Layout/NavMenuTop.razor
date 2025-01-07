@@ -1,4 +1,5 @@
 ﻿@using System.Web
+@using Microsoft.AspNetCore.Components
 
 <head>
     <!-- Bootstrap CSS -->
@@ -78,6 +79,11 @@
                         <li><a href="About.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="Account.html">Account</a></li>
+                        <li>
+                            <NavLink class="nav-link" style="color:var(--primary-color)" @onclick="@(() => this.NavigateTo("/"))">
+                                Home
+                            </NavLink>
+                        </li>
                     </ul>
                 </nav>
                 <a href="Cart.html"><i class="fa fa-shopping-cart" style="font-size:23px;color:red"></i></a>
@@ -93,7 +99,9 @@
 
  @code {
 
+
      public bool isCollapsed { get; set; } = true;
+     //google
 
      protected override async Task OnInitializedAsync()
      {
@@ -104,4 +112,9 @@
      {
         isCollapsed = !isCollapsed;
      }
+     public void NavigateTo(string url)
+     {
+        NavManager.NavigateTo(url);
+     }
+
  }
